@@ -1,0 +1,31 @@
+{
+  "grammars": [
+    {
+      "name": "smali",
+      "camelcase": "Smali",
+      "scope": "source.smali",
+      "path": ".",
+      "file-types": [
+        "smali"
+      ],
+      "injection-regex": "^(smali)$"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "Smali grammar for tree-sitter",
+    "authors": [],
+    "links": {
+      "repository": "https://github.com/ThatHackerDudeFromCyberspace/tree-sitter-smali"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
